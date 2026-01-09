@@ -3,6 +3,8 @@ package Strings;
 public class IsAPalindrome {
 
     public static boolean isPalindrome(String str) {
+
+        // Using "TWO POINTER Approach"
         int i = 0;
         int j = str.length()-1;
 
